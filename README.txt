@@ -7,10 +7,10 @@ Bem-vindo ao Jogo da Memória!
 Este é um projeto de jogo da memória desenvolvido como parte de um trabalho de programação. Abaixo estão algumas informações sobre o projeto e como executá-lo.
 
 1. Estrutura de Arquivos:
-   - index.html: Página principal com o menu de login e registro.
+   - Login.html: Página principal com o menu de login e registro.
    - CriarConta.html: Página de criação de conta de usuário.
    - Login.html: Página de login de usuário.
-   - Jogo.html: Página do jogo da memória.
+   - MainMenu.html: Página do jogo da memória.
    - styles.css: Arquivo CSS para estilos comuns.
    - jogo.css: Arquivo CSS específico para o jogo da memória.
    - script/LoginCriar.js: Script JavaScript para gerenciar o registro de usuário.
