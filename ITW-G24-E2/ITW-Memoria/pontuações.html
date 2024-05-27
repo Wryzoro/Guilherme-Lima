@@ -1,0 +1,47 @@
+<!-- Grupo: 24, 
+    Número: 58670, Nome: Gildo Conceição, PL: 21 
+    Número: 56699, Nome: Guilherme Lima, PL: 24
+    Número: 58618, Nome: Henrique Venâncio, PL:21
+-->
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontuações</title>
+    <link rel="stylesheet" href="style/pontua.css">
+</head>
+<body>
+    <h1>Pontuações</h1>
+    <div class="controls">
+        <button id="mainMenuButton">Menu Principal</button>
+    </div>
+    <table id="scoreTable">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Número de Jogos</th>
+                <th>Tempo Total de Jogo (segundos)</th>
+                <th>Pontuação Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Pontuações serão preenchidas dinamicamente com JavaScript -->
+        </tbody>
+    </table>
+
+    <audio autoplay loop>
+        <source src="/ITW-Memoria/multimedia/Nates Theme.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script/pontua.js"></script>
+
+    <script>
+        // Adiciona evento de clique ao botão "Menu Principal"
+        document.getElementById('mainMenuButton').addEventListener('click', function() {
+            window.location.href = "/ITW-Memoria/MainMenu.html"; // Redireciona para a página do menu principal
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!-- Grupo: 24, 
+    Número: 58670, Nome: Gildo Conceição, PL: 21 
+    Número: 56699, Nome: Guilherme Lima, PL: 24
+    Número: 58618, Nome: Henrique Venâncio, PL:21
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta - Jogo XYZ</title>
+    <link rel="stylesheet" href="/ITW-Memoria/style/CriaConta.css">
+</head>
+<body>
+    <div class="container">
+        <div class="register-container">
+            <h1>Criar Conta 🔐</h1>
+            <form id="registerForm">
+                <label for="register-username">Usuário</label>
+                <input type="text" id="register-username" name="register-username" required>
+                <label for="register-password">Senha</label>
+                <input type="password" id="register-password" name="register-password" required>
+                <label for="register-age">Faixa Etária</label>
+                <input type="number" id="register-age" name="register-age" required>
+                <label for="register-gender">Gênero</label>
+                <select id="register-gender" name="register-gender" required>
+                    <option value="">Selecione</option>
+                    <option value="male">Masculino</option>
+                    <option value="female">Feminino</option>
+                    <option value="other">Outro</option>
+                </select>
+                <button type="submit">Registrar</button>
+            </form>
+            <button onclick="window.location.href='Login.html'">Voltar para Login</button>
+        </div>
+    </div>
+    <audio autoplay>
+        <source src="multimedia/League of Legends - URF Queue Music [Bass Boosted] (Extended).mp3" type="audio/mp3">
+    </audio>    
+    <script src="script/LoginCriar.js"></script>
+</body>
+</html>

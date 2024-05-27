@@ -1,0 +1,62 @@
+/* Grupo: 24, 
+    Número: 58670, Nome: Gildo Conceição, PL: 21 
+    Número: 56699, Nome: Guilherme Lima, PL: 24
+    Número: 58618, Nome: Henrique Venâncio, PL:21
+*/
+
+/* Estilo para o corpo da página */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Estilo para o título */
+h1 {
+    margin: 20px 0;
+}
+
+/* Estilo para o contêiner dos botões de controle */
+.controls {
+    margin-bottom: 20px;
+}
+
+/* Estilo para os botões */
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background: linear-gradient(145deg, #28238e, #c09ead);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Estilo para a tabela */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #f0f0f0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,85 @@
+/* Grupo: 24, 
+    Número: 58670, Nome: Gildo Conceição, PL: 21 
+    Número: 56699, Nome: Guilherme Lima, PL: 24
+    Número: 58618, Nome: Henrique Venâncio, PL:21
+*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffcccc, #ccffcc);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background: linear-gradient(145deg, #28238e, #c09ead);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(145deg, #bc8f8f, #8e8923);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+
+button:active {
+    transform: translateY(4px);
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+
+/* Styles for the login and register pages */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.login-container, .register-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+}

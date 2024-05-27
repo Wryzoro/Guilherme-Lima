@@ -1,0 +1,42 @@
+<!-- Grupo: 24, 
+    Número: 58670, Nome: Gildo Conceição, PL: 21 
+    Número: 56699, Nome: Guilherme Lima, PL: 24
+    Número: 58618, Nome: Henrique Venâncio, PL:21
+-->
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="/ITW-Memoria/style/jogo.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2>Jogo da Memória 🧠</h2>
+        <div class="controls">
+            <button id="startButton">Start</button>
+            <button id="resetButton">Reset</button>
+            <button id="mainMenuButton">Menu Principal</button> 
+        </div>
+        <div class="timer" id="timer">Tempo: 0s</div>
+        <div class="score" id="score">Pontuação: 0</div>
+        <div class="game-board" id="gameBoard"></div>
+    </div>
+    <script src="/ITW-Memoria/script/jogo.js"></script>
+
+    <audio autoplay loop>
+        <source src="/ITW-Memoria/multimedia/C418 - Subwoofer Lullaby - Minecraft Volume Alpha.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        // Adiciona evento de clique ao botão "Menu Principal"
+        document.getElementById('mainMenuButton').addEventListener('click', function() {
+            window.location.href = "/ITW-Memoria/MainMenu.html"; // Redireciona para a página do menu principal
+        });
+    </script>
+</body>
+</html>
+
+

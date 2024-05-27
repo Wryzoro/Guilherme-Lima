@@ -1,0 +1,66 @@
+/* Grupo: 24, 
+    Número: 58670, Nome: Gildo Conceição, PL: 21 
+    Número: 56699, Nome: Guilherme Lima, PL: 24
+    Número: 58618, Nome: Henrique Venâncio, PL:21
+*/
+
+
+
+/* Estilos para a página de modos de jogo */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffcccc, #ccffcc);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para os botões */
+.button-container button {
+    margin: 10px;
+    padding: 15px 25px; /* Ajuste o padding conforme necessário */
+    font-size: 16px;
+    background: linear-gradient(145deg, #28238e, #c09ead); /* Gradiente personalizado */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button-container button:hover {
+    transform: translateY(-2px); /* Efeito de levantamento suave ao passar o mouse */
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4), -4px -4px 12px rgba(255, 255, 255, 0.7);
+}
+
+.creditos {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #666;
+}
